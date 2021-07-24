@@ -8,7 +8,7 @@ import logging
 
 if __name__=="__main__":
     res=""
-    df = pandas.read_csv("NSESAMPLESTOCKS.csv",sep=',')
+    df = pandas.read_csv("../Data/NSESAMPLESTOCKS.csv",sep=',')
     logging.info('the size of dataframe is : %s',df.shape[0])
 
 
